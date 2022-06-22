@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+
   <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/all.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <script src="https://kit.fontawesome.com/0041323f8d.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="https://kit.fontawesome.com/0041323f8d.js" crossorigin="anonymous"></script>
+
   <script defer src="main.js"></script>
+
 </head>
+
 <body>
   <!-- HEADER SECTION START -->
   <header>
-      <div class="nav-info">
-        <h1>Sin</h1>
-
-      <div class="menu-icon">
-          <div class="menu-icon-lines"></div>
-        </div>
+    <div class="nav-info">
+      <div class="logo-top">
+        <i class="fa-solid fa-a frist-a"></i>
+        <i class="fa-solid fa-a sacnd-a"></i>
       </div>
-      <div class="menu">
-       <ul>
+      
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </div>
+    <div class="menu">
+      <ul>
         <li><a href="#Home">Home</a></li>
         <li><a href="#Skills">Skills</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Contact">Contact</a></li>
-       </ul>
-      </div>
+      </ul>
+    </div>
   </header>
-    <!-- HEADER SECTION END -->
-    
-    <!-- MAIN SECTION START -->
-  <section class="main" id="Home"> 
+  <!-- HEADER SECTION END -->
+
+  <!-- MAIN SECTION START -->
+  <section class="main" id="Home">
     <h2>Hey, I'm</h2>
     <h1>Abdulrahman</h1>
     <p>Fornt End Developer</p>
@@ -41,17 +49,19 @@
       <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
       <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
     </ul>
-    
+
   </section>
-    <!-- MAIN SECTION END -->
-  
-    <!-- SKILLS SECTION START -->
+  <!-- MAIN SECTION END -->
+
+  <!-- SKILLS SECTION START -->
   <section class="skills" id="Skills">
-    <h2>SKILLS</h2>
+    <h2>skills</h2>
     <div class="html-skill">
       <div class="info">
         <h3>HTML<h3>
-        <h3 class="num" data-gole="80">0</h3>
+            <div style="display: flex;">
+              <h3 class="num" data-gole="80">0</h3><span style="font-size: 15px;">%</span>
+            </div>
       </div>
       <div class="range">
         <span style="width: 0;" data-width="80%"></span>
@@ -60,7 +70,9 @@
     <div class="css-skill">
       <div class="info">
         <h3>CSS</h3>
-        <h3 class="num" data-gole="50">0</h3>
+        <div style="display: flex;">
+          <h3 class="num" data-gole="50">0</h3><span style="font-size: 15px; font-weight: bold;">%</span>
+        </div>
       </div>
       <div class="range">
         <span style="width: 0;" data-width="50%"></span>
@@ -69,20 +81,83 @@
     <div class="js-skill">
       <div class="info">
         <h3>JavaScript</h3>
-        <h3 class="num" data-gole="30">0</h3>
+        <div style="display: flex;">
+          <h3 class="num" data-gole="30">0</h3><span style="font-size: 15px; font-weight: bold;">%</span>
+        </div>
       </div>
       <div class="range">
         <span style="width: 0;" data-width="30%"></span>
       </div>
     </div>
   </section>
-    <!-- SKILLS SECTION END -->
-    
-    <!-- PROJECTS SECTION START -->
-    <section class="projects" id="Projects">
-      <div class="project-box">
-        <img src="./images/project-img.jpg">
+  <!-- SKILLS SECTION END -->
+
+  <!-- PROJECTS SECTION START -->
+  <section class="projects" id="Projects">
+    <h2>projects</h2>
+    <div class="project-box" style="transform: translateX(350px)">
+      <div class="info">
+        <h3>Project Name</h3>
+        <h4>More Detail</h4>
       </div>
-    </section>
+    </div>
+    <div class="project-box" style="transform: translateX(-350px)">
+      <div class="info">
+        <h3>Project Name</h3>
+        <h4>More Detail</h4>
+      </div>
+    </div>
+    <div class="project-box" style="transform: translateX(350px)">
+      <div class="info">
+        <h3>Project Name</h3>
+        <h4>More Detail</h4>
+      </div>
+    </div>
+    <div class="project-box" style="transform: translateX(-350px)">
+      <div class="info">
+        <h3>Project Name</h3>
+        <h4>More Detail</h4>
+      </div>
+    </div>
+
+  </section>
+  <!-- PROJECTS SECTION END-->
+
+  <!-- CONTACT SECTION START -->
+  <section class="contact" id="Contact">
+    <h2>contact</h2>
+    <div class="contact-info">
+      <div class="info-box">
+        <i class="fa-solid fa-phone"></i>
+        <h3>+201557790578</h3>
+      </div>
+      <div class="info-box">
+        <i class="fa-solid fa-envelope"></i>
+        <h3 class="mail">abdoatef991@gmail.com</h3>
+      </div>
+    </div>
+    <div class="social">
+      <ul>
+        <li style="border-left: none;"><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- CONTACT SECTION END -->
+
+  <!-- FOOTER SECTION START -->
+  <footer>
+    <div class="to-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <h2>&copy;2022 Abdulrahman Atef</h2>
+    <p>my portfolio <br>for contact with me go <a href="#Contact">here</a></p>
+    <i class="fa-solid fa-a frist-a"></i>
+    <i class="fa-solid fa-a sacnd-a"></i>
+  </footer>
+  <!-- FOOTER SECTION END -->
 </body>
+
 </html>
